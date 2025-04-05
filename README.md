@@ -6,23 +6,27 @@ A clean and functional **desktop application** to help you **track your income a
 
 ## 🚀 Features
 
-- ✅ Add, View, and Delete Income and Expense Entries
-- 📅 Track Date, Category, Amount, and Description
-- 📊 Pie Charts for Income & Expense Distribution
-- 📈 Line Chart showing Income vs Expense Trends
-- 🌗 Dark Themed UI for a sleek modern look
-- 🔙 Navigation-friendly with Back-to-Main functionality
+- ✅ Add, View, and Delete Income and Expense Entries  
+- 📅 Track Date, Category, Amount, and Description  
+- 📊 Pie Charts for Income & Expense Distribution  
+- 📈 Line Chart showing Income vs Expense Trends  
+- 🌗 Dark Themed UI for a sleek modern look  
+- 🔙 Navigation-friendly with Back-to-Main functionality  
 
 ---
 
 ## 🖼️ Screenshots
 
-| Dashboard Page | Analysis Page |
-|----------------|---------------|
-![image](https://github.com/user-attachments/assets/67dfe9e7-c458-47fc-842d-33abb64c0dac)
-![image](https://github.com/user-attachments/assets/00550b00-8bf1-44f7-8994-7cab2848cf58)
-
-
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/67dfe9e7-c458-47fc-842d-33abb64c0dac" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/00550b00-8bf1-44f7-8994-7cab2848cf58" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center">Dashboard Page</td>
+    <td align="center">Analysis Page</td>
+  </tr>
+</table>
 
 ---
 
@@ -65,54 +69,3 @@ back_button.setStyleSheet("""
         background-color: #333333;
     }
 """)
-🛠️ Tech Stack
-Python 3.x
-
-PyQt5
-
-QtChart for graphs
-
-🏁 Getting Started
-Clone the repository
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/expense-tracker-pyqt.git
-cd expense-tracker-pyqt
-Install dependencies
-
-bash
-Copy
-Edit
-pip install PyQt5
-Run the app
-
-bash
-Copy
-Edit
-python main.py
-📁 File Structure
-css
-Copy
-Edit
-
-📦 expense-tracker-pyqt
-├── main.py
-├── main_window.py
-├── add_income.py
-├── add_expense.py
-├── analysis_page.py
-├── database.py
-├── assets/
-│   └── dashboard.png
-│   └── analysis.png
-└── README.md
-
-
-📌 To-Do / Future Enhancements
-1.Export data to CSV
-2.Monthly Reports
-3.User authentication
-4.Budget goal alerts
-5.Cloud sync or local storage options
