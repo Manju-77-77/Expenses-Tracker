@@ -56,16 +56,4 @@ A clean and functional **desktop application** to help you **track your income a
   - Line Chart for trends
 - Styled **Back to Main** button for easy navigation.
 
-```python
-back_button.setStyleSheet("""
-    QPushButton {
-        background-color: black;
-        color: white;
-        border: none;
-        padding: 10px;
-        margin: 5px;
-    }
-    QPushButton:hover {
-        background-color: #333333;
-    }
-""")
+
